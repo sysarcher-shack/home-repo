@@ -1,5 +1,5 @@
 {
-  description = "Home Manager configuration of taimoor";
+  description = "Home Manager configuration of sysarcher";
 
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
@@ -15,7 +15,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      homeConfigurations."taimoor" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."sysarcher" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         # Specify your home configuration modules here, for example,
