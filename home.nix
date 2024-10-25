@@ -8,7 +8,7 @@
 
   home.packages = with pkgs; [
     htop
-    (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+    (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" "JetBrainsMono" ]; })
     ripgrep
     neovim
     gcc
