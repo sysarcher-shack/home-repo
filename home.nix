@@ -14,6 +14,7 @@
     gcc
     jujutsu
     tree
+    atop
   ];
   programs.gh = {
     enable = true;
